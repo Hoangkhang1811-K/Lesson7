@@ -5,8 +5,24 @@
     <title>Lesson7-varible-data-types-operators</title>
     <script src="Averages.js"></script>
     <script src="CconverF.js"></script>
+    <script src="caculator.js"></script>
 </head>
 <body>
+<h2> Ứng dụng máy tính</h2>
+
+
+<div class="calculator">
+    <h3>Caculator</h3>
+    <input type="number" id="num1" placeholder="Nhập số thứ nhất">
+    <input type="number" id="num2" placeholder="Nhập số thứ hai"><br>
+
+    <button onclick="calculate('+')">Addition(+)</button>
+    <button onclick="calculate('-')">Subtraction(-)</button><br>
+    <button onclick="calculate('*')">Multiplication(X)</button>
+    <button onclick="calculate('/')">Division(/)</button>
+
+    <div id="result"></div>
+</div>
 
 </body>
 </html>
